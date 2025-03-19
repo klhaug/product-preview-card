@@ -1,0 +1,9 @@
+@media screen and (min-width:440px) {
+    .desktop-image {
+        display: block;
+    }
+
+    .mobile-image {
+        display: none;
+    }
+}
