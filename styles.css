@@ -107,10 +107,109 @@ article {
     border-top-left-radius: var(--spacing-100, 8px);
     border-top-right-radius: var(--spacing-100, 8px);
 }
-img:first-of-type {
+.img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     scale: 1.1;
     object-position: -10px 18%;
 }
+
+section {
+    display: flex;
+    padding: var(--spacing-400, 32px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+h1 {
+    /* text-preset-1 */
+    font-size: 2rem;
+    color: var(--color-black, #1C232B);
+    font-family: Fraunces, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 32px */
+    order: 1;
+}
+
+h2 {
+  /* text-preset-4 */
+  color: var(--color-grey, #6C7289);
+  font-family: Montserrat, sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 14.4px */
+  letter-spacing: 5px;
+  order: 0;
+    }
+
+p {
+      /* text-preset-3 */
+      color: var(--color-grey, #6C7289);
+      font-family: Montserrat, sans-serif;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%; /* 22.4px */
+      order: 1;
+}
+
+.price-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-200, 16px);
+}
+
+strong {
+        /* text-preset-1 */
+        font-size: 2rem;
+        color: var(--color-green-500);
+        font-family: Fraunces, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 32px */
+    }
+
+span {
+        /* text-preset-5 */
+        color: var(--color-grey, #6C7289);
+        font-family: Montserrat, sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 15.6px */
+        text-decoration: line-through;
+
+}
+
+button {
+    display: flex;
+    padding: var(--spacing-200, 16px) var(--spacing-400, 32px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-100, 8px);
+    align-self: stretch;
+    border-radius: var(--spacing-100, 8px);
+    background: var(--color-green-500, #3D8168);
+    border: 1px solid var(--color-green-500);
+    color: var(--color-white, #1C232B);
+    font-family: Montserrat, sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 15.4px */
+
+}
+
