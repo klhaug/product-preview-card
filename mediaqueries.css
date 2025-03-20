@@ -1,9 +1,23 @@
-@media screen and (min-width:440px) {
-    .desktop-image {
-        display: block;
+@media screen and (min-width:768px) {
+    article {
+        flex-direction: row;
+        max-width: 600px;
     }
 
-    .mobile-image {
-        display: none;
+    .img-container {
+        width: 50%;
+        height: 100%;
+        border-radius: 8px 0 0 8px;
+
     }
+
+   .img-container img {
+        scale: 1.1;
+        object-position: center center;
+    }
+
+    section {
+        width: 50%;
+    }
+
 }

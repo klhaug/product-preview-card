@@ -213,3 +213,8 @@ button {
 
 }
 
+button:hover {
+    background-color: var(--color-green-700);
+    cursor: pointer;
+}
+
