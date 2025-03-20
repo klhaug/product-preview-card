@@ -88,12 +88,17 @@ html {
 /* -------- */
 body {
     background-color: var(--color-cream);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center ;
+
 }
 
 article {
     max-width: 350px;
     width: calc(100vw - 1.5rem);
-    margin: 80px auto;
+
     border-radius: var(--spacing-100, 8px);
     display: flex;
     flex-direction: column;
