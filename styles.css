@@ -157,6 +157,7 @@ h2 {
   line-height: 120%; /* 14.4px */
   letter-spacing: 5px;
   order: 0;
+  text-transform: uppercase;
     }
 
 p {
