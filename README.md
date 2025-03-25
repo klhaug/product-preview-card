@@ -5,4 +5,4 @@ GOALS FOR CHALLENGE:
 4. Use really semantic html, and give it some tought before I rush into writing it out. 
 5. More structured and minimalistic code
 
-![](screenshot.png)
+![](screenshot.png)# four-card-feature-section
